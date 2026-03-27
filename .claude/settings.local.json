@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__cuik__get_keyword_ideas",
+      "mcp__seo__dataforseo_analyze_serp",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(printf \"No\\\\nYes\\\\n\")",
+      "Bash(npx create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(yes)"
+    ]
+  }
+}
