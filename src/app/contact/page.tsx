@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@in-and-out-traduction.com",
-    href: "mailto:contact@in-and-out-traduction.com",
+    value: "contact@willypaul.fr",
+    href: "mailto:contact@willypaul.fr",
   },
   {
     icon: Phone,
@@ -50,8 +50,8 @@ export default function ContactPage() {
             <span className="text-gold-400">Contactez</span>-nous
           </h1>
           <p className="text-lg text-navy-200 max-w-2xl mx-auto">
-            Une question sur nos services de traduction juridique ? Notre équipe est à votre
-            disposition pour vous accompagner.
+            Une question sur nos services de traduction juridique à Paris ? Notre cabinet est à votre
+            disposition pour vous accompagner dans toutes vos démarches.
           </p>
         </div>
       </section>

@@ -73,7 +73,7 @@ const documents = [
   "Permis de conduire",
   "Casiers judiciaires",
   "Contrats commerciaux",
-  "Statuts de société",
+  "Statuts de société & Kbis",
   "Jugements et décisions",
   "Testaments",
   "Procurations",
@@ -116,10 +116,10 @@ export default function HomePage() {
             "@type": "ProfessionalService",
             name: "ATJ - Agence de Traduction Juridique",
             description:
-              "Agence de traduction juridique spécialisée. Traducteurs assermentés, traductions certifiées conformes de documents officiels.",
+              "Cabinet de traduction juridique à Paris. Traducteurs assermentés, traductions certifiées conformes de documents officiels.",
             url: "https://agence-traduction-juridique.fr",
             telephone: "+33675671260",
-            email: "contact@in-and-out-traduction.com",
+            email: "contact@willypaul.fr",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Paris",
@@ -258,9 +258,9 @@ export default function HomePage() {
                 Pourquoi choisir ATJ pour vos traductions juridiques ?
               </h2>
               <p className="text-navy-600 text-lg mb-8">
-                Notre équipe de traducteurs assermentés et spécialistes du droit garantit des
-                traductions d&apos;une précision irréprochable, avec la valeur légale requise pour
-                toutes vos démarches.
+                Notre cabinet de traduction juridique réunit des traducteurs assermentés et
+                spécialistes du droit. Nous garantissons des traductions d&apos;une précision
+                irréprochable, avec la valeur légale requise pour toutes vos démarches.
               </p>
               <ul className="space-y-4">
                 {trustSignals.map((signal) => (

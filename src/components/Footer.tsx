@@ -36,8 +36,8 @@ export function Footer() {
               </div>
             </div>
             <p className="text-navy-300 text-sm leading-relaxed mb-6">
-              Spécialiste de la traduction juridique assermentée et certifiée. Des traducteurs
-              experts au service de vos documents officiels.
+              Cabinet spécialiste de la traduction juridique assermentée et certifiée à Paris.
+              Des traducteurs experts au service de vos documents officiels.
             </p>
           </div>
 
@@ -82,10 +82,10 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-gold-400 mt-0.5 shrink-0" />
                 <a
-                  href="mailto:contact@in-and-out-traduction.com"
+                  href="mailto:contact@willypaul.fr"
                   className="text-navy-300 hover:text-gold-400 text-sm transition-colors"
                 >
-                  contact@in-and-out-traduction.com
+                  contact@willypaul.fr
                 </a>
               </li>
               <li className="flex items-start gap-3">

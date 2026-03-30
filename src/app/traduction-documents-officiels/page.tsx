@@ -4,9 +4,9 @@ import type { Metadata } from "next";
 import { FileText, ArrowRight, CheckCircle, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Traduction de Documents Officiels | Actes, Diplômes, Permis",
+  title: "Traduction de Documents Officiels | Actes, Diplômes, Kbis, Permis",
   description:
-    "Traduction assermentée de documents officiels : actes de naissance, permis de conduire, diplômes, casier judiciaire, contrats. Traducteurs assermentés. Devis gratuit.",
+    "Traduction assermentée de documents officiels : actes de naissance, permis de conduire, diplômes, Kbis, casier judiciaire, contrats. Traducteurs assermentés à Paris. Devis gratuit.",
   alternates: {
     canonical: "https://agence-traduction-juridique.fr/traduction-documents-officiels",
   },
