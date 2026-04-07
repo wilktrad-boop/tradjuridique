@@ -105,8 +105,34 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Partner + credits */}
+        <div className="border-t border-navy-700 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-navy-400">
+          <p>
+            Besoin de traduction technique ?{" "}
+            <a
+              href="https://www.traduction-technique.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-400 hover:text-gold-300 transition-colors"
+            >
+              Consultez notre partenaire
+            </a>
+          </p>
+          <p>
+            Site réalisé par{" "}
+            <a
+              href="https://willypaul.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-navy-300 transition-colors"
+            >
+              willypaul.fr
+            </a>
+          </p>
+        </div>
+
         {/* Bottom */}
-        <div className="border-t border-navy-700 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="border-t border-navy-700 mt-6 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-navy-400 text-sm">
             &copy; {new Date().getFullYear()} ATJ - Agence de Traduction Juridique. Tous droits
             réservés.
