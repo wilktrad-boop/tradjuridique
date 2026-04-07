@@ -53,7 +53,7 @@ export function HeroForm() {
       {/* Glow effect */}
       <div className="absolute -inset-1 bg-gradient-to-br from-gold-400/20 to-gold-600/10 rounded-2xl blur-xl" />
       <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 shadow-2xl">
-        <p className="text-white font-semibold text-lg mb-1">Devis gratuit en 2 minutes</p>
+        <p className="text-white font-semibold text-lg mb-1">Demandez votre devis gratuit</p>
         <p className="text-navy-300 text-sm mb-6">Sans engagement · Réponse sous 24h</p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
