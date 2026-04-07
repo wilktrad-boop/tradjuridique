@@ -14,6 +14,7 @@ import {
   FileText,
   Languages,
 } from "lucide-react";
+import { HeroForm } from "@/components/HeroForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -152,36 +153,43 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900/95 via-navy-900/80 to-navy-900/60" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold-500/10 border border-gold-500/20 rounded-full mb-8">
-              <Award className="w-4 h-4 text-gold-400" />
-              <span className="text-gold-300 text-sm font-medium">
-                Traducteurs assermentés près la Cour d&apos;appel
-              </span>
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left: text */}
+            <div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold-500/10 border border-gold-500/20 rounded-full mb-8">
+                <Award className="w-4 h-4 text-gold-400" />
+                <span className="text-gold-300 text-sm font-medium">
+                  Traducteurs assermentés près la Cour d&apos;appel
+                </span>
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                Votre agence de{" "}
+                <span className="text-gold-400">traduction juridique</span> de confiance
+              </h1>
+              <p className="text-lg sm:text-xl text-navy-200 leading-relaxed mb-10">
+                Des traductions juridiques précises et certifiées, réalisées par des traducteurs
+                assermentés experts en droit. Contrats, actes notariés, documents officiels &mdash; en
+                plus de 30 langues.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href="/devis"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all shadow-lg shadow-gold-500/25 hover:shadow-gold-500/40"
+                >
+                  Demander un devis gratuit
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
+                <Link
+                  href="/tarifs"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-navy-500 text-white hover:bg-navy-700 font-semibold rounded-lg transition-colors"
+                >
+                  Voir nos tarifs
+                </Link>
+              </div>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
-              Votre agence de{" "}
-              <span className="text-gold-400">traduction juridique</span> de confiance
-            </h1>
-            <p className="text-lg sm:text-xl text-navy-200 leading-relaxed mb-10 max-w-2xl">
-              Des traductions juridiques précises et certifiées, réalisées par des traducteurs
-              assermentés experts en droit. Contrats, actes notariés, documents officiels &mdash; en
-              plus de 30 langues.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/devis"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all shadow-lg shadow-gold-500/25 hover:shadow-gold-500/40"
-              >
-                Demander un devis gratuit
-                <ArrowRight className="w-5 h-5" />
-              </Link>
-              <Link
-                href="/tarifs"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-navy-500 text-white hover:bg-navy-700 font-semibold rounded-lg transition-colors"
-              >
-                Voir nos tarifs
-              </Link>
+            {/* Right: quick quote form */}
+            <div>
+              <HeroForm />
             </div>
           </div>
         </div>
