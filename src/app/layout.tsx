@@ -74,7 +74,7 @@ export default function RootLayout({
         <Footer />
         <Script
           src="https://app.rybbit.io/api/script.js"
-          data-site-id="undefined"
+          data-site-id="f8920d8225d7"
           strategy="afterInteractive"
         />
       </body>
