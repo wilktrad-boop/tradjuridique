@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://agence-traduction-juridique.fr";
+  const baseUrl = "https://www.agence-traduction-juridique.fr";
 
   return [
     {

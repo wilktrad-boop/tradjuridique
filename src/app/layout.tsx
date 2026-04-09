@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://agence-traduction-juridique.fr"),
+  metadataBase: new URL("https://www.agence-traduction-juridique.fr"),
   title: {
     default: "ATJ - Agence de Traduction Juridique | Traducteurs Assermentés",
     template: "%s | ATJ - Agence de Traduction Juridique",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://agence-traduction-juridique.fr",
+    url: "https://www.agence-traduction-juridique.fr",
     siteName: "ATJ - Agence de Traduction Juridique",
     title: "ATJ - Agence de Traduction Juridique | Traducteurs Assermentés",
     description:
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr",
+    canonical: "https://www.agence-traduction-juridique.fr",
   },
 };
 

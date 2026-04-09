@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Tout savoir sur la traduction assermentée d'un acte de mariage : cas d'usage, quelle version fournir, prix, délais, apostille et FAQ complète.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-assermentee-acte-de-mariage",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-assermentee-acte-de-mariage",
   },
 };
 

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Politique de Confidentialité",
   description: "Politique de confidentialité du site agence-traduction-juridique.fr - ATJ, Agence de Traduction Juridique.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/politique-de-confidentialite" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/politique-de-confidentialite" },
 };
 
 export default function PolitiqueConfidentialitePage() {

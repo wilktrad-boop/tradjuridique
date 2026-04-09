@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Comprendre l'apostille et son lien avec la traduction assermentée : définition, procédure, Convention de La Haye et cas pratiques.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/apostille-traduction-assermentee",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/apostille-traduction-assermentee",
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Guide complet pour devenir traducteur assermenté : conditions, formation, inscription auprès de la Cour d'appel, procédure et conseils pratiques.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traducteur-assermente-comment-devenir",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traducteur-assermente-comment-devenir",
   },
 };
 

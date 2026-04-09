@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "ATJ - Agence de Traduction Juridique | Traducteurs Assermentés Paris",
   description:
     "ATJ, agence de traduction juridique à Paris. Traducteurs assermentés près la Cour d'appel. Traduction certifiée de contrats, actes notariés, documents officiels en 30+ langues. Devis gratuit.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr" },
 };
 
 const services = [
@@ -118,7 +118,7 @@ export default function HomePage() {
             name: "ATJ - Agence de Traduction Juridique",
             description:
               "Cabinet de traduction juridique à Paris. Traducteurs assermentés, traductions certifiées conformes de documents officiels.",
-            url: "https://agence-traduction-juridique.fr",
+            url: "https://www.agence-traduction-juridique.fr",
             telephone: "+33675671260",
             email: "contact@agence-traduction-juridique.fr",
             address: {

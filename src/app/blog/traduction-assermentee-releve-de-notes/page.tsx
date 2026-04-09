@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Comment faire traduire un relevé de notes par un traducteur assermenté ? Campus France, études à l'étranger, équivalences, prix et délais — tout ce qu'il faut savoir.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-assermentee-releve-de-notes",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-assermentee-releve-de-notes",
   },
 };
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Tarifs Traduction Juridique | Prix Traduction Assermentée",
   description:
     "Découvrez nos tarifs pour la traduction juridique assermentée et certifiée. Prix compétitifs à partir de 30€/page. Devis gratuit et sans engagement.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/tarifs" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/tarifs" },
 };
 
 const plans = [

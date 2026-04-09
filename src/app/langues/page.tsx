@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Langues de Traduction Juridique | 30+ Combinaisons Linguistiques",
   description:
     "Traduction juridique assermentée en plus de 30 langues : anglais, espagnol, allemand, arabe, chinois, russe, portugais, italien et bien plus. Toutes les paires linguistiques.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/langues" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/langues" },
 };
 
 const languesPrincipales = [

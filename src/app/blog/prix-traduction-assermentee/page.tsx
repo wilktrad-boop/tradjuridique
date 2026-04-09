@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Combien coûte une traduction assermentée en France ? Tarifs moyens par langue, par document et facteurs influençant le prix. Guide des prix 2026.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/prix-traduction-assermentee",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/prix-traduction-assermentee",
   },
 };
 

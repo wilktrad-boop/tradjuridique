@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Comment faire traduire votre permis de conduire par un traducteur assermenté ? Procédure, prix, délais et conseils pour l'échange de permis étranger en France.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-assermentee-permis-de-conduire",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-assermentee-permis-de-conduire",
   },
 };
 

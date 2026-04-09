@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Traduction Assermentée | Traducteur Assermenté près la Cour d'appel",
   description:
     "Service de traduction assermentée par des traducteurs inscrits auprès de la Cour d'appel. Traduction à valeur légale pour vos démarches administratives et judiciaires. Devis gratuit.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/traduction-assermentee" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/traduction-assermentee" },
 };
 
 const features = [

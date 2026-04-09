@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Guide complet pour la traduction assermentée de diplômes étrangers en France : procédure, équivalences, prix, délais et organismes compétents.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-diplome-etranger",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-diplome-etranger",
   },
 };
 

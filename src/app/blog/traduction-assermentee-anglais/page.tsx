@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Traduction assermentée anglais-français et français-anglais : spécificités juridiques, documents concernés, tarifs et délais. Guide complet.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-assermentee-anglais",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-assermentee-anglais",
   },
 };
 

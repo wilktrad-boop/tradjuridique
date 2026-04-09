@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Comment faire traduire un acte de naissance par un traducteur assermenté ? Démarches, prix, délais et cas d'usage (mariage, naturalisation, études).",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-acte-de-naissance",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-acte-de-naissance",
   },
 };
 

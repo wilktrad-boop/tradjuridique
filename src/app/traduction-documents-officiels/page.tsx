@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Traduction assermentée de documents officiels : actes de naissance, permis de conduire, diplômes, Kbis, casier judiciaire, contrats. Traducteurs assermentés à Paris. Devis gratuit.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/traduction-documents-officiels",
+    canonical: "https://www.agence-traduction-juridique.fr/traduction-documents-officiels",
   },
 };
 

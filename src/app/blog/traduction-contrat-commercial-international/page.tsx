@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Les enjeux de la traduction juridique des contrats commerciaux internationaux : clauses clés, terminologie, erreurs courantes et conseils pratiques.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traduction-contrat-commercial-international",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traduction-contrat-commercial-international",
   },
 };
 

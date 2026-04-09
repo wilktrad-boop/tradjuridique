@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Blog Traduction Juridique | Guides et Conseils",
   description:
     "Guides pratiques, conseils et informations sur la traduction juridique, assermentée et certifiée. Tout savoir sur vos démarches de traduction officielle.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/blog" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/blog" },
 };
 
 const articles = [

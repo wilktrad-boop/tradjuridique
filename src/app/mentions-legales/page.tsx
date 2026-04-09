@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mentions Légales",
   description: "Mentions légales du site agence-traduction-juridique.fr - ATJ, Agence de Traduction Juridique.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/mentions-legales" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/mentions-legales" },
 };
 
 export default function MentionsLegalesPage() {

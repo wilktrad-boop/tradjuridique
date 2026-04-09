@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Comment trouver un traducteur assermenté inscrit auprès de la Cour d'appel ? Listes officielles, vérifications et conseils pour choisir le bon traducteur.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/traducteur-assermente-cour-appel-liste",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/traducteur-assermente-cour-appel-liste",
   },
 };
 

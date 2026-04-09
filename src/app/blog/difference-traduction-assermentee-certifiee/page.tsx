@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Découvrez les différences entre traduction assermentée et traduction certifiée : valeur légale, usage, prix. Guide complet pour choisir le bon type de traduction.",
   alternates: {
-    canonical: "https://agence-traduction-juridique.fr/blog/difference-traduction-assermentee-certifiee",
+    canonical: "https://www.agence-traduction-juridique.fr/blog/difference-traduction-assermentee-certifiee",
   },
 };
 

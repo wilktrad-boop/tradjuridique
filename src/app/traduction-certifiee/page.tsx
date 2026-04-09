@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Traduction Certifiée Conforme | Documents Officiels",
   description:
     "Service de traduction certifiée conforme à l'original. Traduction de documents officiels avec attestation de conformité pour administrations et organismes. Devis gratuit.",
-  alternates: { canonical: "https://agence-traduction-juridique.fr/traduction-certifiee" },
+  alternates: { canonical: "https://www.agence-traduction-juridique.fr/traduction-certifiee" },
 };
 
 export default function TraductionCertifieePage() {

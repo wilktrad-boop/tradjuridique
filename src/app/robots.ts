@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://agence-traduction-juridique.fr/sitemap.xml",
+    sitemap: "https://www.agence-traduction-juridique.fr/sitemap.xml",
   };
 }
