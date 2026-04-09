@@ -119,6 +119,17 @@ export function Footer() {
             </a>
           </p>
           <p>
+            Découvrez le{" "}
+            <a
+              href="https://c-traduction.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold-400 hover:text-gold-300 transition-colors"
+            >
+              média spécialisé sur la traduction
+            </a>
+          </p>
+          <p>
             Site réalisé par{" "}
             <a
               href="https://willypaul.fr"
