@@ -27,7 +27,7 @@ export default function PolitiqueConfidentialitePage() {
           <p className="text-navy-600 leading-relaxed">
             Le responsable du traitement des données personnelles est :<br />
             <strong>ATJ — Agence de Traduction Juridique</strong><br />
-            Email : <a href="mailto:contact@willypaul.fr" className="text-gold-600 hover:underline">contact@willypaul.fr</a><br />
+            Email : <a href="mailto:contact@agence-traduction-juridique.fr" className="text-gold-600 hover:underline">contact@agence-traduction-juridique.fr</a><br />
             Téléphone : <a href="tel:+33675671260" className="text-gold-600 hover:underline">06 75 67 12 60</a>
           </p>
 
@@ -82,7 +82,7 @@ export default function PolitiqueConfidentialitePage() {
             <li><strong>Droit d&apos;opposition :</strong> vous opposer au traitement de vos données</li>
           </ul>
           <p className="text-navy-600 leading-relaxed">
-            Pour exercer ces droits, contactez-nous à l&apos;adresse : <a href="mailto:contact@willypaul.fr" className="text-gold-600 hover:underline">contact@willypaul.fr</a>
+            Pour exercer ces droits, contactez-nous à l&apos;adresse : <a href="mailto:contact@agence-traduction-juridique.fr" className="text-gold-600 hover:underline">contact@agence-traduction-juridique.fr</a>
           </p>
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">8. Cookies</h2>

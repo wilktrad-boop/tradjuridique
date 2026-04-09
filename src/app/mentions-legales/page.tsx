@@ -25,7 +25,7 @@ export default function MentionsLegalesPage() {
             <strong>ATJ — Agence de Traduction Juridique</strong><br />
             Adresse : Paris, France<br />
             Téléphone : <a href="tel:+33675671260" className="text-gold-600 hover:underline">06 75 67 12 60</a><br />
-            Email : <a href="mailto:contact@willypaul.fr" className="text-gold-600 hover:underline">contact@willypaul.fr</a>
+            Email : <a href="mailto:contact@agence-traduction-juridique.fr" className="text-gold-600 hover:underline">contact@agence-traduction-juridique.fr</a>
           </p>
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">2. Directeur de la publication</h2>
@@ -67,7 +67,7 @@ export default function MentionsLegalesPage() {
           <h2 className="text-2xl font-heading font-bold text-navy-900">8. Contact</h2>
           <p className="text-navy-600 leading-relaxed">
             Pour toute question relative aux mentions légales du site, vous pouvez nous contacter :<br />
-            Email : <a href="mailto:contact@willypaul.fr" className="text-gold-600 hover:underline">contact@willypaul.fr</a><br />
+            Email : <a href="mailto:contact@agence-traduction-juridique.fr" className="text-gold-600 hover:underline">contact@agence-traduction-juridique.fr</a><br />
             Téléphone : <a href="tel:+33675671260" className="text-gold-600 hover:underline">06 75 67 12 60</a>
           </p>
         </div>

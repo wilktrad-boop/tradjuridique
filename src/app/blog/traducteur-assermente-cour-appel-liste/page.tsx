@@ -86,6 +86,14 @@ export default function Article() {
             Faire appel à une agence de traduction juridique comme ATJ vous garantit de travailler avec des traducteurs assermentés vérifiés, spécialisés dans le domaine juridique. L&apos;agence gère la logistique, assure un contrôle qualité et offre des délais compétitifs grâce à son réseau de traducteurs couvrant plus de 30 langues.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi</p>
+            <ul className="space-y-2">
+              <li><Link href="/blog/traducteur-assermente-comment-devenir" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Comment devenir traducteur assermenté en France ? →</Link></li>
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

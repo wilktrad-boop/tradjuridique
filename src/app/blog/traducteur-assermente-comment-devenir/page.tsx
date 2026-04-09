@@ -88,6 +88,14 @@ export default function Article() {
             Dans la pratique, les termes sont souvent utilisés de manière interchangeable. Techniquement, le traducteur est inscrit sur la liste des <strong>experts judiciaires</strong> en qualité de traducteur-interprète. Le titre officiel est &laquo; expert judiciaire en traduction &raquo;, mais l&apos;appellation courante reste &laquo; traducteur assermenté &raquo;.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi</p>
+            <ul className="space-y-2">
+              <li><Link href="/blog/traducteur-assermente-cour-appel-liste" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Liste des traducteurs assermentés inscrits à la Cour d&apos;appel →</Link></li>
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

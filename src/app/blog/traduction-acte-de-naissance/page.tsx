@@ -75,6 +75,15 @@ export default function Article() {
             L&apos;apostille est un cachet officiel apposé par le tribunal compétent du pays d&apos;origine qui authentifie la signature et le sceau du document. Certains pays et certaines administrations l&apos;exigent en complément de la traduction assermentée. Pour les pays signataires de la Convention de La Haye, l&apos;apostille suffit. Pour les autres, une légalisation consulaire peut être nécessaire.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi — Documents d&apos;état civil</p>
+            <ul className="space-y-2">
+              <li><Link href="/blog/traduction-assermentee-acte-de-mariage" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de mariage →</Link></li>
+              <li><Link href="/blog/apostille-traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Apostille et traduction assermentée : guide pratique →</Link></li>
+              <li><Link href="/traduction-documents-officiels" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Tous nos services de traduction de documents officiels →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Questions fréquentes</h2>

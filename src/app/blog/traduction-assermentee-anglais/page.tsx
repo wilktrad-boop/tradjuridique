@@ -71,6 +71,15 @@ export default function Article() {
             Les systèmes juridiques du Royaume-Uni et des États-Unis présentent des différences notables dans leur terminologie. Un acte de naissance britannique (Birth Certificate) n&apos;a pas le même format qu&apos;un américain. Nos traducteurs assermentés connaissent ces variations et adaptent leur traduction en conséquence.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi</p>
+            <ul className="space-y-2">
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+              <li><Link href="/blog/traduction-acte-de-naissance" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de naissance →</Link></li>
+              <li><Link href="/blog/traduction-assermentee-acte-de-mariage" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de mariage →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

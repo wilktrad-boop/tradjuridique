@@ -69,6 +69,14 @@ export default function Article() {
             Le coût de la traduction assermentée d&apos;un diplôme varie entre <strong>35 et 55€</strong> selon la langue et la complexité du document. Les relevés de notes sont facturés en fonction du nombre de pages. Comptez 2 à 3 jours ouvrables en délai standard.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi — Documents académiques</p>
+            <ul className="space-y-2">
+              <li><Link href="/blog/traduction-assermentee-releve-de-notes" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un relevé de notes →</Link></li>
+              <li><Link href="/traduction-documents-officiels" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Tous nos services de traduction de documents officiels →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

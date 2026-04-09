@@ -113,6 +113,15 @@ export default function Article() {
             En cas de doute, privilégiez toujours la <strong>traduction assermentée</strong>. Elle est acceptée dans tous les cas où une traduction certifiée est demandée, mais l&apos;inverse n&apos;est pas vrai. C&apos;est un investissement qui vous évitera de devoir refaire la traduction ultérieurement.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi</p>
+            <ul className="space-y-2">
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+              <li><Link href="/traduction-certifiee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction certifiée conforme →</Link></li>
+              <li><Link href="/blog/prix-traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Prix d&apos;une traduction assermentée : tarifs 2026 →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Questions fréquentes</h2>

@@ -72,6 +72,14 @@ export default function Article() {
             Chez ATJ, nos traducteurs spécialisés en droit des affaires international traduisent quotidiennement des contrats commerciaux, des accords de distribution, des joint-ventures et des conventions d&apos;actionnaires. Chaque traduction est relue par un second expert pour garantir la précision terminologique.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi — Droit des affaires</p>
+            <ul className="space-y-2">
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+              <li><Link href="/blog/difference-traduction-assermentee-certifiee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée ou certifiée pour un contrat : quelle différence ? →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

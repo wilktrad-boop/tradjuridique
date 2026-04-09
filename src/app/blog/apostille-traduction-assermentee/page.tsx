@@ -78,6 +78,15 @@ export default function Article() {
             Pour les pays qui n&apos;ont pas signé la Convention de La Haye, une procédure de <strong>légalisation consulaire</strong> remplace l&apos;apostille. Le document doit alors être authentifié par le ministère des Affaires étrangères puis par le consulat du pays de destination. Cette procédure est plus longue et plus coûteuse que l&apos;apostille.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi — Documents d&apos;état civil</p>
+            <ul className="space-y-2">
+              <li><Link href="/blog/traduction-acte-de-naissance" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de naissance →</Link></li>
+              <li><Link href="/blog/traduction-assermentee-acte-de-mariage" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de mariage →</Link></li>
+              <li><Link href="/traduction-documents-officiels" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Tous nos services de traduction de documents officiels →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
         </div>
       </section>

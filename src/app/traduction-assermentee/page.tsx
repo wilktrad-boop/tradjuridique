@@ -292,6 +292,37 @@ export default function TraductionAssermenteePage() {
         </div>
       </section>
 
+      {/* Guides */}
+      <section className="bg-navy-50/50 py-20 lg:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl font-heading font-bold text-navy-900 mb-3">
+              Nos guides sur la traduction assermentée
+            </h2>
+            <p className="text-navy-600">Tout ce que vous devez savoir avant de commander.</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { href: "/blog/difference-traduction-assermentee-certifiee", title: "Assermentée ou certifiée : quelle différence ?", desc: "Comprendre les deux types de traduction pour choisir le bon service." },
+              { href: "/blog/prix-traduction-assermentee", title: "Prix d'une traduction assermentée en 2026", desc: "Tarifs moyens par document et par langue, facteurs qui influencent le coût." },
+              { href: "/blog/traducteur-assermente-cour-appel-liste", title: "Comment trouver un traducteur assermenté ?", desc: "Listes officielles, vérifications et critères de choix." },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group bg-white rounded-2xl p-6 border border-navy-100 shadow-sm hover:shadow-lg hover:border-gold-200 transition-all"
+              >
+                <h3 className="font-heading font-bold text-navy-900 mb-2 group-hover:text-gold-600 transition-colors">
+                  {guide.title}
+                </h3>
+                <p className="text-navy-600 text-sm leading-relaxed mb-3">{guide.desc}</p>
+                <span className="text-gold-600 text-sm font-semibold">Lire le guide →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-gold-50 to-navy-50">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">

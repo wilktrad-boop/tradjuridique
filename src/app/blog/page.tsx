@@ -11,6 +11,22 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "traduction-assermentee-acte-de-mariage",
+    title: "Traduction assermentée d'un acte de mariage : guide complet",
+    excerpt:
+      "Mariage mixte, naturalisation, regroupement familial, succession : quand et comment faire traduire un acte de mariage, quelle version fournir, prix et apostille.",
+    date: "2026-04-09",
+    category: "Guide",
+  },
+  {
+    slug: "traduction-assermentee-releve-de-notes",
+    title: "Traduction assermentée d'un relevé de notes : guide complet",
+    excerpt:
+      "Campus France, études à l'étranger, reconnaissance de diplôme : tout savoir sur la traduction officielle du relevé de notes, les pièges à éviter et les délais.",
+    date: "2026-04-09",
+    category: "Guide",
+  },
+  {
     slug: "difference-traduction-assermentee-certifiee",
     title: "Traduction assermentée ou certifiée : quelle différence ?",
     excerpt:

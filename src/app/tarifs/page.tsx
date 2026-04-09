@@ -193,6 +193,12 @@ export default function TarifsPage() {
           >
             Contactez-nous pour un tarif personnalisé <ArrowRight className="w-5 h-5" />
           </Link>
+          <p className="mt-8 text-navy-500 text-sm">
+            Consultez aussi notre guide détaillé :{" "}
+            <Link href="/blog/prix-traduction-assermentee" className="text-gold-600 hover:underline font-medium">
+              Prix d&apos;une traduction assermentée : tarifs et facteurs →
+            </Link>
+          </p>
         </div>
       </section>
     </>

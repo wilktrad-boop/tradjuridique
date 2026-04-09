@@ -120,7 +120,7 @@ export default function HomePage() {
               "Cabinet de traduction juridique à Paris. Traducteurs assermentés, traductions certifiées conformes de documents officiels.",
             url: "https://agence-traduction-juridique.fr",
             telephone: "+33675671260",
-            email: "contact@willypaul.fr",
+            email: "contact@agence-traduction-juridique.fr",
             address: {
               "@type": "PostalAddress",
               addressLocality: "Paris",
@@ -425,6 +425,50 @@ export default function HomePage() {
               <Languages className="w-5 h-5" />
               Voir toutes les langues disponibles
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog */}
+      <section className="py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-heading font-bold text-navy-900 mb-3">
+                Nos guides pratiques
+              </h2>
+              <p className="text-navy-600 text-lg max-w-xl">
+                Tout ce que vous devez savoir sur la traduction juridique assermentée.
+              </p>
+            </div>
+            <Link
+              href="/blog"
+              className="inline-flex items-center gap-2 text-gold-600 hover:text-gold-700 font-semibold shrink-0 transition-colors"
+            >
+              Voir tous les guides <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { href: "/blog/difference-traduction-assermentee-certifiee", cat: "Guide", title: "Assermentée ou certifiée : quelle différence ?", desc: "Comprendre les deux types de traduction pour ne pas se tromper de service." },
+              { href: "/blog/traduction-acte-de-naissance", cat: "État civil", title: "Traduction d'un acte de naissance", desc: "Naturalisation, mariage, immigration : quand et comment faire traduire votre acte." },
+              { href: "/blog/prix-traduction-assermentee", cat: "Tarifs", title: "Prix d'une traduction assermentée", desc: "Tarifs moyens par type de document et par langue en 2026." },
+            ].map((article) => (
+              <Link
+                key={article.href}
+                href={article.href}
+                className="group bg-white rounded-2xl p-8 border border-navy-100 shadow-sm hover:shadow-xl hover:border-gold-200 transition-all duration-300 flex flex-col"
+              >
+                <span className="inline-block px-3 py-1 bg-gold-50 text-gold-700 text-xs font-semibold rounded-full mb-4">{article.cat}</span>
+                <h3 className="text-lg font-heading font-bold text-navy-900 mb-3 group-hover:text-gold-600 transition-colors">
+                  {article.title}
+                </h3>
+                <p className="text-navy-600 text-sm leading-relaxed flex-1 mb-4">{article.desc}</p>
+                <span className="inline-flex items-center gap-1 text-gold-600 font-semibold text-sm group-hover:gap-2 transition-all">
+                  Lire le guide <ArrowRight className="w-4 h-4" />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -8,8 +8,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@willypaul.fr",
-    href: "mailto:contact@willypaul.fr",
+    value: "contact@agence-traduction-juridique.fr",
+    href: "mailto:contact@agence-traduction-juridique.fr",
   },
   {
     icon: Phone,

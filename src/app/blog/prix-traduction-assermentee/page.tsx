@@ -93,6 +93,15 @@ export default function Article() {
             Pour obtenir le meilleur tarif pour votre traduction assermentée, nous vous conseillons de demander plusieurs devis, d&apos;anticiper vos besoins pour éviter les frais d&apos;urgence, et de regrouper vos documents si vous en avez plusieurs à faire traduire — les agences proposent souvent des tarifs dégressifs.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi</p>
+            <ul className="space-y-2">
+              <li><Link href="/tarifs" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Voir nos tarifs détaillés par formule →</Link></li>
+              <li><Link href="/traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Notre service de traduction assermentée →</Link></li>
+              <li><Link href="/blog/difference-traduction-assermentee-certifiee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée ou certifiée : quelle différence ? →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Questions fréquentes</h2>

@@ -152,6 +152,41 @@ export default function DocumentsOfficielsPage() {
         </div>
       </section>
 
+      {/* Guides par document */}
+      <section className="py-20 lg:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-2xl sm:text-3xl font-heading font-bold text-navy-900 mb-3">
+              Nos guides par type de document
+            </h2>
+            <p className="text-navy-600">Retrouvez nos conseils pratiques pour chaque catégorie de document.</p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { href: "/blog/traduction-acte-de-naissance", label: "État civil", title: "Traduction d'un acte de naissance", desc: "Procédure, version à fournir, délais et prix." },
+              { href: "/blog/traduction-assermentee-acte-de-mariage", label: "État civil", title: "Traduction d'un acte de mariage", desc: "Cas d'usage, copie intégrale, apostille : tout ce qu'il faut savoir." },
+              { href: "/blog/apostille-traduction-assermentee", label: "État civil", title: "Apostille et traduction assermentée", desc: "Quand faut-il une apostille ? Dans quel ordre obtenir les deux ?" },
+              { href: "/blog/traduction-assermentee-permis-de-conduire", label: "Identité", title: "Traduction du permis de conduire", desc: "Échange de permis étranger en France : étapes et conseils." },
+              { href: "/blog/traduction-diplome-etranger", label: "Éducation", title: "Traduction d'un diplôme étranger", desc: "Équivalences, ENIC-NARIC, procédure et coût." },
+              { href: "/blog/traduction-assermentee-releve-de-notes", label: "Éducation", title: "Traduction d'un relevé de notes", desc: "Campus France, études à l'étranger, pièges à éviter." },
+            ].map((guide) => (
+              <Link
+                key={guide.href}
+                href={guide.href}
+                className="group bg-white rounded-2xl p-6 border border-navy-100 shadow-sm hover:shadow-lg hover:border-gold-200 transition-all"
+              >
+                <span className="inline-block px-2.5 py-1 bg-gold-50 text-gold-700 text-xs font-semibold rounded-full mb-3">{guide.label}</span>
+                <h3 className="font-heading font-bold text-navy-900 mb-2 group-hover:text-gold-600 transition-colors">
+                  {guide.title}
+                </h3>
+                <p className="text-navy-600 text-sm leading-relaxed mb-3">{guide.desc}</p>
+                <span className="text-gold-600 text-sm font-semibold">Lire le guide →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-navy-50/50 py-20 lg:py-28">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl p-8 lg:p-12 border border-navy-100 shadow-sm">

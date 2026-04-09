@@ -80,6 +80,15 @@ export default function Article() {
             Le prix d&apos;une traduction assermentée de permis de conduire se situe généralement entre <strong>25 et 45€</strong>, selon la langue source. Le délai standard est de 1 à 2 jours ouvrables, avec possibilité de service express sous 24h.
           </p>
 
+          <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
+            <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-3">À lire aussi — Documents d&apos;état civil</p>
+            <ul className="space-y-2">
+              <li><Link href="/traduction-documents-officiels" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Tous nos services de traduction de documents officiels →</Link></li>
+              <li><Link href="/blog/traduction-acte-de-naissance" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Traduction assermentée d&apos;un acte de naissance →</Link></li>
+              <li><Link href="/blog/apostille-traduction-assermentee" className="text-gold-600 hover:text-gold-700 font-medium text-sm hover:underline">Apostille et traduction assermentée : quand en avez-vous besoin ? →</Link></li>
+            </ul>
+          </div>
+
           <BlogCTA />
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Cas particuliers</h2>

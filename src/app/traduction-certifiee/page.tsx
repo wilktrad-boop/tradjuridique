@@ -188,6 +188,29 @@ export default function TraductionCertifieePage() {
         </div>
       </section>
 
+      {/* Guide */}
+      <section className="py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="bg-navy-50 rounded-2xl p-8 flex flex-col sm:flex-row gap-6 items-start">
+            <div className="flex-1">
+              <p className="text-xs font-semibold text-navy-400 uppercase tracking-wide mb-2">Guide pratique</p>
+              <h2 className="text-xl font-heading font-bold text-navy-900 mb-2">
+                Pas sûr de choisir entre certifiée et assermentée ?
+              </h2>
+              <p className="text-navy-600 text-sm leading-relaxed">
+                Notre guide complet explique les différences, les cas d&apos;usage et vous aide à choisir le bon type de traduction selon votre démarche.
+              </p>
+            </div>
+            <Link
+              href="/blog/difference-traduction-assermentee-certifiee"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gold-500 hover:bg-gold-600 text-white font-semibold rounded-lg transition-all text-sm shrink-0"
+            >
+              Lire le guide <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-navy-800 to-navy-900">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
