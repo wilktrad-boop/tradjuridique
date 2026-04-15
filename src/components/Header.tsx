@@ -8,6 +8,8 @@ const services = [
   { name: "Traduction Assermentée", href: "/traduction-assermentee" },
   { name: "Traduction Certifiée", href: "/traduction-certifiee" },
   { name: "Documents Officiels", href: "/traduction-documents-officiels" },
+  { name: "Traduction Immigration", href: "/traduction-immigration" },
+  { name: "Cabinets & Notaires", href: "/traduction-juridique-cabinets" },
 ];
 
 const navigation = [
@@ -15,6 +17,7 @@ const navigation = [
   { name: "Services", href: "#", children: services },
   { name: "Langues", href: "/langues" },
   { name: "Tarifs", href: "/tarifs" },
+  { name: "FAQ", href: "/faq" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
