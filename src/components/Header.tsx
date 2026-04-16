@@ -10,6 +10,9 @@ const services = [
   { name: "Documents Officiels", href: "/traduction-documents-officiels" },
   { name: "Traduction Immigration", href: "/traduction-immigration" },
   { name: "Cabinets & Notaires", href: "/traduction-juridique-cabinets" },
+  { name: "Traduction Entreprise", href: "/traduction-entreprise" },
+  { name: "Apostille", href: "/apostille" },
+  { name: "Paris & IDF", href: "/traducteur-assermente-paris" },
 ];
 
 const navigation = [
