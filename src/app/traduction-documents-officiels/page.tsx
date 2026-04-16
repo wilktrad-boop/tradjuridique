@@ -187,6 +187,35 @@ export default function DocumentsOfficielsPage() {
         </div>
       </section>
 
+      {/* Par profil */}
+      <section className="py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-heading font-bold text-navy-900 mb-8 text-center">
+            Services spécialisés par profil
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              { href: "/traduction-immigration", label: "Particuliers", title: "Démarches d'immigration", desc: "Visa, titre de séjour, OFPRA, naturalisation — traduction assermentée acceptée par toutes les préfectures." },
+              { href: "/traduction-juridique-cabinets", label: "Professionnels du droit", title: "Cabinets d'avocats & notaires", desc: "Confidentialité, délais prioritaires et interlocuteur dédié pour les professionnels du droit." },
+              { href: "/traduction-entreprise", label: "Entreprises", title: "Entreprises & organisations", desc: "Contrats internationaux, documents RH, conformité et propriété intellectuelle avec tarifs volume." },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group bg-white rounded-2xl p-6 border border-navy-100 shadow-sm hover:shadow-lg hover:border-gold-200 transition-all"
+              >
+                <span className="inline-block px-2.5 py-1 bg-gold-50 text-gold-700 text-xs font-semibold rounded-full mb-3">{item.label}</span>
+                <h3 className="font-heading font-bold text-navy-900 mb-2 group-hover:text-gold-600 transition-colors">{item.title}</h3>
+                <p className="text-navy-600 text-sm leading-relaxed mb-3">{item.desc}</p>
+                <span className="inline-flex items-center gap-1 text-gold-600 font-semibold text-sm group-hover:gap-2 transition-all">
+                  En savoir plus <ArrowRight className="w-4 h-4" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-navy-50/50 py-20 lg:py-28">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-2xl p-8 lg:p-12 border border-navy-100 shadow-sm">

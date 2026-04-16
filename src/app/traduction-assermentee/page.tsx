@@ -276,7 +276,8 @@ export default function TraductionAssermenteePage() {
               },
               {
                 q: "Ma traduction assermentée sera-t-elle acceptée à l'étranger ?",
-                a: "Nos traductions assermentées sont généralement reconnues en France et dans de nombreux pays. Pour certains pays, une apostille peut être nécessaire. Nous vous accompagnons dans ces démarches.",
+                a: "Nos traductions assermentées sont généralement reconnues en France et dans de nombreux pays. Pour certains pays signataires de la Convention de La Haye, une apostille peut être nécessaire en complément. Nous vous accompagnons dans ces démarches.",
+                link: { href: "/apostille", label: "En savoir plus sur l'apostille →" },
               },
               {
                 q: "Combien coûte une traduction assermentée ?",
@@ -286,6 +287,11 @@ export default function TraductionAssermenteePage() {
               <div key={faq.q} className="bg-navy-700/50 rounded-xl p-6 border border-navy-600/30">
                 <h3 className="text-white font-semibold mb-3">{faq.q}</h3>
                 <p className="text-navy-300 text-sm leading-relaxed">{faq.a}</p>
+                {"link" in faq && faq.link && (
+                  <Link href={faq.link.href} className="inline-flex items-center gap-1 mt-3 text-gold-400 hover:text-gold-300 text-sm font-semibold">
+                    {faq.link.label}
+                  </Link>
+                )}
               </div>
             ))}
           </div>
@@ -306,6 +312,9 @@ export default function TraductionAssermenteePage() {
               { href: "/blog/difference-traduction-assermentee-certifiee", title: "Assermentée ou certifiée : quelle différence ?", desc: "Comprendre les deux types de traduction pour choisir le bon service." },
               { href: "/blog/prix-traduction-assermentee", title: "Prix d'une traduction assermentée en 2026", desc: "Tarifs moyens par document et par langue, facteurs qui influencent le coût." },
               { href: "/blog/traducteur-assermente-cour-appel-liste", title: "Comment trouver un traducteur assermenté ?", desc: "Listes officielles, vérifications et critères de choix." },
+              { href: "/traducteur-assermente-paris", title: "Traducteur assermenté à Paris", desc: "Service local en Île-de-France, délais express, accepté par toutes les préfectures." },
+              { href: "/traduction-immigration", title: "Traduction pour l'immigration", desc: "Visa, titre de séjour, OFPRA, naturalisation : tous vos documents d'immigration." },
+              { href: "/apostille", title: "Apostille et traduction assermentée", desc: "Quand faut-il une apostille ? Comment la combiner avec votre traduction." },
             ].map((guide) => (
               <Link
                 key={guide.href}

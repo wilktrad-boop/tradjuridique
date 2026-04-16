@@ -257,6 +257,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Profils */}
+      <section className="py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-heading font-bold text-navy-900 mb-4">
+              Une solution pour chaque besoin
+            </h2>
+            <p className="text-navy-600 text-lg max-w-2xl mx-auto">
+              Particuliers, professionnels du droit ou entreprises — nous avons un service adapté à votre situation.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { href: "/traduction-immigration", label: "Particuliers", title: "Démarches d'immigration", desc: "Visa, titre de séjour, naturalisation, OFPRA, préfecture. Toutes vos traductions pour les démarches administratives." },
+              { href: "/traduction-juridique-cabinets", label: "Professionnels du droit", title: "Cabinets d'avocats & notaires", desc: "Confidentialité absolue, délais prioritaires, interlocuteur dédié et tarifs volume pour les professionnels du droit." },
+              { href: "/traduction-entreprise", label: "Entreprises", title: "Entreprises & organisations", desc: "Contrats internationaux, RH, conformité, propriété intellectuelle. Tarifs dégressifs et glossaires maison." },
+              { href: "/apostille", label: "International", title: "Apostille & légalisation", desc: "Faire reconnaître un document officiel à l'étranger : comprendre l'apostille et la combiner avec une traduction." },
+              { href: "/traducteur-assermente-paris", label: "Local", title: "Traducteur assermenté à Paris", desc: "Inscrits près la Cour d'appel de Paris, acceptés par toutes les préfectures d'Île-de-France." },
+              { href: "/faq", label: "Aide", title: "Questions fréquentes", desc: "Tarifs, délais, valeur légale, documents acceptés… toutes les réponses à vos questions sur la traduction assermentée." },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group bg-white rounded-2xl p-6 border border-navy-100 shadow-sm hover:shadow-lg hover:border-gold-200 transition-all"
+              >
+                <span className="inline-block px-2.5 py-1 bg-gold-50 text-gold-700 text-xs font-semibold rounded-full mb-3">{item.label}</span>
+                <h3 className="font-heading font-bold text-navy-900 mb-2 group-hover:text-gold-600 transition-colors">
+                  {item.title}
+                </h3>
+                <p className="text-navy-600 text-sm leading-relaxed mb-3">{item.desc}</p>
+                <span className="inline-flex items-center gap-1 text-gold-600 font-semibold text-sm group-hover:gap-2 transition-all">
+                  En savoir plus <ArrowRight className="w-4 h-4" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Why ATJ */}
       <section className="py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
