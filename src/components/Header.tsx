@@ -13,6 +13,8 @@ const services = [
   { name: "Traduction Entreprise", href: "/traduction-entreprise" },
   { name: "Apostille", href: "/apostille" },
   { name: "Paris & IDF", href: "/traducteur-assermente-paris" },
+  { name: "Lyon & AuRA", href: "/traducteur-assermente-lyon" },
+  { name: "Montpellier & Occitanie", href: "/traducteur-assermente-montpellier" },
 ];
 
 const navigation = [

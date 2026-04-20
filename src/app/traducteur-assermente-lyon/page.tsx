@@ -8,84 +8,82 @@ import {
   Clock,
   Shield,
   Award,
-  Phone,
   Mail,
   Star,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Traducteur Assermenté Paris | Traduction Officielle 75 | ATJ",
+  title: "Traducteur Assermenté Lyon | Traduction Officielle 69 | ATJ",
   description:
-    "Traducteur assermenté à Paris inscrit près la Cour d'appel de Paris. Traduction officielle pour préfecture, tribunal, OFPRA. Devis gratuit, délai 48h.",
+    "Traducteur assermenté à Lyon inscrit près la Cour d'appel de Lyon. Traduction officielle pour préfecture du Rhône, tribunal, OFPRA. Devis gratuit, délai 48h.",
   alternates: {
-    canonical:
-      "https://www.agence-traduction-juridique.fr/traducteur-assermente-paris",
+    canonical: "https://www.agence-traduction-juridique.fr/traducteur-assermente-lyon",
   },
 };
 
 const features = [
   {
     icon: Award,
-    title: "Inscrits près la Cour d'appel de Paris",
+    title: "Inscrits près la Cour d'appel de Lyon",
     description:
-      "Nos traducteurs parisiens figurent sur la liste officielle des experts judiciaires de la Cour d'appel de Paris, la plus importante de France.",
+      "Nos traducteurs lyonnais figurent sur la liste officielle des experts judiciaires de la Cour d'appel de Lyon, couvrant l'ensemble de la région Auvergne-Rhône-Alpes.",
   },
   {
     icon: Clock,
-    title: "Livraison express à Paris",
+    title: "Livraison express",
     description:
-      "Réponse sous 2h, livraison numérique sous 24 à 48h. Pour les urgences, remise en main propre possible dans Paris intra-muros.",
+      "Réponse sous 2h, livraison numérique sous 24 à 48h. Service urgent disponible pour les dossiers pressés, sans surcoût sur les documents simples.",
   },
   {
     icon: Shield,
-    title: "Traductions reconnues partout",
+    title: "Traductions reconnues",
     description:
-      "Acceptées par toutes les préfectures d'Île-de-France, le Tribunal judiciaire de Paris, l'OFPRA de Fontenay-sous-Bois et les consulats parisiens.",
+      "Acceptées par la préfecture du Rhône, le Tribunal judiciaire de Lyon, l'antenne OFPRA, les consulats lyonnais et toutes les administrations de la région.",
   },
   {
     icon: MapPin,
-    title: "Couverture Île-de-France",
+    title: "Couverture Auvergne-Rhône-Alpes",
     description:
-      "Paris et toute l'Île-de-France : Paris, Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne, Seine-et-Marne, Yvelines, Essonne, Val-d'Oise.",
+      "Lyon et toute la région : Rhône, Isère, Ain, Loire, Savoie, Haute-Savoie, Ardèche, Drôme, Puy-de-Dôme, Allier, Haute-Loire, Cantal.",
   },
   {
     icon: Star,
     title: "30+ langues disponibles",
     description:
-      "Nos traducteurs assermentés parisiens couvrent plus de 30 langues, dont les principales langues de l'immigration en Île-de-France.",
+      "Arabe, anglais, espagnol, portugais, turc, roumain, chinois, russe et bien d'autres — toutes les langues présentes dans la région lyonnaise.",
   },
   {
     icon: Shield,
-    title: "Confidentialité absolue",
+    title: "Confidentialité garantie",
     description:
-      "Secret professionnel garanti. Vos documents sont traités de façon sécurisée et ne sont jamais partagés avec des tiers.",
+      "Vos documents personnels sont traités sous strict secret professionnel. Aucun document n'est partagé avec des tiers.",
   },
 ];
 
 const administrations = [
-  "Préfecture de Paris (75)",
-  "Préfecture des Hauts-de-Seine (92)",
-  "Préfecture de Seine-Saint-Denis (93)",
-  "Préfecture du Val-de-Marne (94)",
-  "Tribunal judiciaire de Paris",
-  "Cour d'appel de Paris",
-  "OFPRA (Fontenay-sous-Bois)",
-  "Ambassades et consulats à Paris",
-  "Mairies d'arrondissement",
-  "Universités parisiennes",
-  "Notaires et huissiers (Paris)",
-  "Ministère de la Justice",
+  "Préfecture du Rhône (69)",
+  "Préfecture de l'Isère (38)",
+  "Préfecture de l'Ain (01)",
+  "Préfecture de la Loire (42)",
+  "Tribunal judiciaire de Lyon",
+  "Cour d'appel de Lyon",
+  "Tribunal judiciaire de Grenoble",
+  "OFPRA (correspondances régionales)",
+  "Consulats à Lyon",
+  "Universités lyonnaises (Lyon 1, 2, 3)",
+  "Notaires et huissiers (Lyon)",
+  "Mairies de Lyon (1er–9e)",
 ];
 
-const neighborhoods = [
-  "Paris 1er–4e (Centre)", "Paris 5e–6e (Latin)", "Paris 7e–8e (Ouest)",
-  "Paris 9e–10e (Nord)", "Paris 11e–12e (Est)", "Paris 13e–14e (Sud)",
-  "Paris 15e–16e (Passy)", "Paris 17e–18e (Montmartre)", "Paris 19e–20e (Belleville)",
-  "Boulogne-Billancourt", "Nanterre", "Versailles",
-  "Saint-Denis", "Créteil", "Vincennes",
+const zones = [
+  "Lyon 1er–6e (Centre)", "Lyon 7e–9e (Périphérie)", "Villeurbanne",
+  "Bron", "Vénissieux", "Caluire-et-Cuire",
+  "Écully", "Tassin-la-Demi-Lune", "Saint-Priest",
+  "Grenoble", "Saint-Étienne", "Bourg-en-Bresse",
+  "Chambéry", "Annecy", "Valence",
 ];
 
-export default function TraducteurParis() {
+export default function TraducteurLyonPage() {
   return (
     <>
       <script
@@ -94,20 +92,20 @@ export default function TraducteurParis() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            name: "ATJ - Agence de Traduction Juridique Paris",
+            name: "ATJ - Agence de Traduction Juridique Lyon",
             "@id": "https://www.agence-traduction-juridique.fr",
             url: "https://www.agence-traduction-juridique.fr",
             description:
-              "Traducteurs assermentés à Paris inscrits près la Cour d'appel de Paris. Traduction officielle pour préfecture, tribunal, OFPRA.",
+              "Traducteurs assermentés à Lyon inscrits près la Cour d'appel de Lyon. Traduction officielle pour préfecture du Rhône, tribunal, OFPRA.",
             areaServed: [
-              { "@type": "City", name: "Paris" },
-              { "@type": "AdministrativeArea", name: "Île-de-France" },
+              { "@type": "City", name: "Lyon" },
+              { "@type": "AdministrativeArea", name: "Auvergne-Rhône-Alpes" },
             ],
             serviceType: "Traduction assermentée",
             address: {
               "@type": "PostalAddress",
-              addressLocality: "Paris",
-              addressRegion: "Île-de-France",
+              addressLocality: "Lyon",
+              addressRegion: "Auvergne-Rhône-Alpes",
               addressCountry: "FR",
             },
           }),
@@ -128,16 +126,16 @@ export default function TraducteurParis() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gold-500/10 border border-gold-500/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-gold-400" />
-              <span className="text-gold-300 text-sm font-medium">Paris &amp; Île-de-France</span>
+              <span className="text-gold-300 text-sm font-medium">Lyon &amp; Auvergne-Rhône-Alpes</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-heading font-bold text-white leading-tight mb-6">
               Traducteur assermenté à{" "}
-              <span className="text-gold-400">Paris</span> — inscrit près la Cour d&apos;appel
+              <span className="text-gold-400">Lyon</span> — inscrit près la Cour d&apos;appel
             </h1>
             <p className="text-lg text-navy-200 leading-relaxed mb-8">
-              Nos traducteurs assermentés parisiens réalisent vos traductions officielles pour
-              toutes vos démarches en Île-de-France : préfecture, tribunal, OFPRA, consulat.
-              Devis gratuit, réponse sous 2h.
+              Nos traducteurs assermentés lyonnais réalisent vos traductions officielles pour
+              toutes vos démarches en Auvergne-Rhône-Alpes : préfecture du Rhône, tribunal,
+              OFPRA, consulat. Devis gratuit, réponse sous 2h.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -150,7 +148,7 @@ export default function TraducteurParis() {
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-semibold rounded-lg transition-all border border-white/20"
               >
-                <Phone className="w-4 h-4" /> Nous contacter
+                Nous contacter
               </Link>
             </div>
           </div>
@@ -163,11 +161,11 @@ export default function TraducteurParis() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-navy-300">
             <span className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-gold-400" />
-              Inscrits Cour d&apos;appel de Paris
+              Inscrits Cour d&apos;appel de Lyon
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-gold-400" />
-              Acceptés par toutes les préfectures IDF
+              Acceptés préfecture du Rhône
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-gold-400" />
@@ -186,11 +184,11 @@ export default function TraducteurParis() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-heading font-bold text-navy-900 mb-4">
-              Votre traducteur assermenté à Paris
+              Votre traducteur assermenté à Lyon
             </h2>
             <p className="text-navy-600 text-lg max-w-2xl mx-auto">
-              Un service local, rapide et reconnu par toutes les administrations parisiennes et
-              franciliennes.
+              Un service reconnu par toutes les administrations lyonnaises et
+              rhônalpines, avec la réactivité que vos démarches exigent.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -218,11 +216,11 @@ export default function TraducteurParis() {
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-navy-900 mb-6">
-                Administrations et organismes acceptant nos traductions
+                Administrations acceptant nos traductions
               </h2>
               <p className="text-navy-600 text-lg mb-8">
                 Nos traductions assermentées sont reconnues par l&apos;ensemble des administrations
-                d&apos;Île-de-France et des organismes officiels parisiens.
+                de la région Auvergne-Rhône-Alpes et des organismes officiels lyonnais.
               </p>
               <Link
                 href="/traduction-assermentee"
@@ -254,12 +252,12 @@ export default function TraducteurParis() {
               Zones desservies
             </h2>
             <p className="text-navy-600 text-lg">
-              Nous intervenons dans tout Paris et l&apos;Île-de-France. Livraison numérique partout,
-              remise en main propre sur rendez-vous à Paris.
+              Nous intervenons dans tout Lyon et la région Auvergne-Rhône-Alpes.
+              Livraison numérique partout, remise en main propre sur rendez-vous à Lyon.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
-            {neighborhoods.map((zone) => (
+            {zones.map((zone) => (
               <div
                 key={zone}
                 className="flex items-center gap-2 bg-navy-50 rounded-xl px-4 py-3"
@@ -281,20 +279,20 @@ export default function TraducteurParis() {
           <div className="space-y-6">
             {[
               {
-                q: "Comment trouver un traducteur assermenté à Paris ?",
-                a: "Un traducteur assermenté à Paris doit être inscrit sur la liste des experts judiciaires de la Cour d'appel de Paris. Vous pouvez consulter cette liste sur le site de la Cour d'appel ou passer par ATJ, dont tous les traducteurs parisiens y figurent.",
+                q: "Comment trouver un traducteur assermenté à Lyon ?",
+                a: "Un traducteur assermenté à Lyon doit être inscrit sur la liste des experts judiciaires de la Cour d'appel de Lyon. Vous pouvez consulter cette liste sur le site de la Cour d'appel de Lyon ou passer par ATJ, dont tous les traducteurs lyonnais y figurent.",
               },
               {
-                q: "La préfecture de Paris accepte-t-elle vos traductions ?",
-                a: "Oui. Nos traductions sont acceptées par la Préfecture de Paris (75) et toutes les préfectures d'Île-de-France, ainsi que par les sous-préfectures et mairies habilitées.",
+                q: "La préfecture du Rhône accepte-t-elle vos traductions ?",
+                a: "Oui. Nos traductions sont acceptées par la préfecture du Rhône (69) et toutes les préfectures de la région Auvergne-Rhône-Alpes, ainsi que par les sous-préfectures et mairies habilitées.",
               },
               {
-                q: "Puis-je récupérer ma traduction en main propre à Paris ?",
-                a: "Oui, la remise en main propre est possible sur rendez-vous pour les clients parisiens. Pour la grande majorité des dossiers, la livraison numérique (PDF signé et cacheté) est acceptée et vous évite un déplacement.",
+                q: "Faut-il se déplacer pour obtenir une traduction assermentée à Lyon ?",
+                a: "Non. Envoyez-nous une copie numérique (scan ou photo) de votre document par email ou via notre formulaire en ligne. Vous recevez votre traduction assermentée en PDF signé et cacheté. La remise en main propre est possible sur rendez-vous pour les clients lyonnais.",
               },
               {
-                q: "Quel est le délai pour une traduction assermentée à Paris ?",
-                a: "Le délai standard est de 2 à 3 jours ouvrables pour les documents courants. Nous proposons un service express sous 48h et urgent sous 24h, particulièrement adapté aux procédures parisiennes à délais serrés.",
+                q: "Quel est le délai pour une traduction assermentée à Lyon ?",
+                a: "Le délai standard est de 2 à 3 jours ouvrables pour les documents courants. Service express sous 48h et urgent sous 24h disponibles pour les dossiers pressés.",
               },
             ].map((faq) => (
               <div key={faq.q} className="bg-navy-700/50 rounded-xl p-6 border border-navy-600/30">
@@ -302,6 +300,14 @@ export default function TraducteurParis() {
                 <p className="text-navy-300 text-sm leading-relaxed">{faq.a}</p>
               </div>
             ))}
+          </div>
+          <div className="mt-10 text-center">
+            <Link
+              href="/faq"
+              className="inline-flex items-center gap-2 text-gold-400 hover:text-gold-300 font-semibold text-sm"
+            >
+              Voir toutes nos questions fréquentes <ArrowRight className="w-4 h-4" />
+            </Link>
           </div>
         </div>
       </section>
@@ -313,8 +319,8 @@ export default function TraducteurParis() {
             Nos services dans d&apos;autres villes
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/traducteur-assermente-lyon" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-navy-200 rounded-full text-navy-700 text-sm font-medium hover:border-gold-300 hover:bg-gold-50 transition-colors">
-              <MapPin className="w-3.5 h-3.5 text-gold-500" /> Lyon &amp; Auvergne-Rhône-Alpes
+            <Link href="/traducteur-assermente-paris" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-navy-200 rounded-full text-navy-700 text-sm font-medium hover:border-gold-300 hover:bg-gold-50 transition-colors">
+              <MapPin className="w-3.5 h-3.5 text-gold-500" /> Paris &amp; IDF
             </Link>
             <Link href="/traducteur-assermente-montpellier" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-navy-200 rounded-full text-navy-700 text-sm font-medium hover:border-gold-300 hover:bg-gold-50 transition-colors">
               <MapPin className="w-3.5 h-3.5 text-gold-500" /> Montpellier &amp; Occitanie
@@ -323,15 +329,15 @@ export default function TraducteurParis() {
         </div>
       </section>
 
-      {/* Contact CTA */}
+      {/* CTA */}
       <section className="py-20 bg-gradient-to-r from-gold-50 to-navy-50">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-heading font-bold text-navy-900 mb-6">
-            Besoin d&apos;un traducteur assermenté à Paris ?
+            Besoin d&apos;un traducteur assermenté à Lyon ?
           </h2>
           <p className="text-navy-600 text-lg mb-8">
             Envoyez-nous votre document et recevez un devis gratuit sous 2h. Nos traducteurs
-            assermentés parisiens sont disponibles 6j/7 pour répondre à toutes vos urgences.
+            assermentés lyonnais sont disponibles 6j/7.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
