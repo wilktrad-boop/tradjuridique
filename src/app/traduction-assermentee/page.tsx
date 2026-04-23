@@ -281,7 +281,7 @@ export default function TraductionAssermenteePage() {
               },
               {
                 q: "Combien coûte une traduction assermentée ?",
-                a: "Le prix dépend de la langue, du volume et de la complexité du document. Nous proposons des tarifs compétitifs à partir de 30€ par page. Demandez un devis gratuit pour connaître le prix exact.",
+                a: "Le prix dépend de la langue, du volume et de la complexité du document. Nous proposons des tarifs compétitifs à partir de 45€ par page. Demandez un devis gratuit pour connaître le prix exact.",
               },
             ].map((faq) => (
               <div key={faq.q} className="bg-navy-700/50 rounded-xl p-6 border border-navy-600/30">

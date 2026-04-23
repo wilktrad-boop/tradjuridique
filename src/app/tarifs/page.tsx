@@ -5,14 +5,14 @@ import { Check, ArrowRight, AlertCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Tarifs Traduction Juridique | Prix Traduction Assermentée",
   description:
-    "Découvrez nos tarifs pour la traduction juridique assermentée et certifiée. Prix compétitifs à partir de 30€/page. Devis gratuit et sans engagement.",
+    "Découvrez nos tarifs pour la traduction juridique assermentée et certifiée. Prix compétitifs à partir de 45€/page. Devis gratuit et sans engagement.",
   alternates: { canonical: "https://www.agence-traduction-juridique.fr/tarifs" },
 };
 
 const plans = [
   {
     name: "Standard",
-    price: "30",
+    price: "45",
     unit: "/ page",
     delay: "5 jours ouvrables",
     description: "Pour les projets sans urgence particulière.",
@@ -28,7 +28,7 @@ const plans = [
   },
   {
     name: "Express",
-    price: "45",
+    price: "68",
     unit: "/ page",
     delay: "48 heures",
     description: "Traitement prioritaire pour les urgences.",
@@ -44,7 +44,7 @@ const plans = [
   },
   {
     name: "Urgent",
-    price: "60",
+    price: "90",
     unit: "/ page",
     delay: "24 heures",
     description: "Livraison le jour même ou le lendemain.",
@@ -118,6 +118,11 @@ export default function TarifsPage() {
                     {plan.unit}
                   </span>
                 </div>
+                <p
+                  className={`text-xs italic mb-2 ${plan.highlighted ? "text-navy-400" : "text-navy-400"}`}
+                >
+                  Selon la paire de langues et la complexité du document
+                </p>
                 <p
                   className={`text-sm mb-8 ${plan.highlighted ? "text-gold-300" : "text-gold-600"}`}
                 >

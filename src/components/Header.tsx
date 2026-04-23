@@ -11,6 +11,7 @@ const services = [
   { name: "Traduction Immigration", href: "/traduction-immigration" },
   { name: "Cabinets & Notaires", href: "/traduction-juridique-cabinets" },
   { name: "Traduction Entreprise", href: "/traduction-entreprise" },
+  { name: "Traduction Particuliers", href: "/traduction-particuliers" },
   { name: "Apostille", href: "/apostille" },
   { name: "Paris & IDF", href: "/traducteur-assermente-paris" },
   { name: "Lyon & AuRA", href: "/traducteur-assermente-lyon" },

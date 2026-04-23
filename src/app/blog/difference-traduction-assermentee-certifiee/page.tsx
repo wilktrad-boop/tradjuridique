@@ -63,7 +63,7 @@ export default function Article() {
                   ["Traducteur", "Inscrit à la Cour d'appel", "Professionnel qualifié"],
                   ["Cachet officiel", "Oui, avec n° d'inscription", "Attestation signée"],
                   ["Acceptée par les tribunaux", "Oui", "Non garanti"],
-                  ["Prix moyen", "À partir de 30€/page", "À partir de 20€/page"],
+                  ["Prix moyen", "À partir de 45€/page", "À partir de 30€/page"],
                   ["Délai", "2-5 jours", "1-3 jours"],
                 ].map(([critere, asser, cert]) => (
                   <tr key={critere} className="hover:bg-navy-50/50">

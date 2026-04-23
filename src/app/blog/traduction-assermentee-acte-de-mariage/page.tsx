@@ -134,7 +134,7 @@ export default function Article() {
           <h2 className="text-2xl font-heading font-bold text-navy-900">Prix d&apos;une traduction assermentée d&apos;acte de mariage</h2>
           <p className="text-navy-600 leading-relaxed">
             Le tarif dépend de la longueur du document et de la langue. Pour un acte de mariage standard (1 à 2 pages),
-            comptez entre <strong>40 et 80 €</strong> selon la combinaison linguistique. Les langues rares (arabe,
+            comptez entre <strong>60 et 120 €</strong> selon la combinaison linguistique. Les langues rares (arabe,
             chinois, japonais, russe) sont facturées légèrement plus cher que les langues européennes courantes
             (anglais, espagnol, italien, portugais, allemand).
           </p>

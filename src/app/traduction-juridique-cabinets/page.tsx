@@ -265,14 +265,14 @@ export default function TraductionCabinetsPage() {
             {[
               {
                 label: "Standard",
-                price: "30 €",
+                price: "45 €",
                 unit: "par page",
                 delay: "2–5 jours",
                 items: ["Traduction assermentée", "Cachet officiel", "Livraison numérique"],
               },
               {
                 label: "Express",
-                price: "45 €",
+                price: "68 €",
                 unit: "par page",
                 delay: "48h",
                 featured: true,
@@ -284,7 +284,7 @@ export default function TraductionCabinetsPage() {
               },
               {
                 label: "Urgent",
-                price: "60 €",
+                price: "90 €",
                 unit: "par page",
                 delay: "24h",
                 items: ["Traduction assermentée", "Cachet officiel", "Livraison numérique urgente"],
@@ -319,6 +319,11 @@ export default function TraductionCabinetsPage() {
                     {plan.unit}
                   </span>
                 </div>
+                <p
+                  className={`text-xs italic mb-2 ${plan.featured ? "text-navy-400" : "text-navy-400"}`}
+                >
+                  Selon la paire de langues et la complexité du document
+                </p>
                 <p
                   className={`text-sm mb-6 ${plan.featured ? "text-navy-300" : "text-navy-500"}`}
                 >

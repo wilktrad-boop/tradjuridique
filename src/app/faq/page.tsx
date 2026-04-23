@@ -36,7 +36,7 @@ const categories = [
     questions: [
       {
         q: "Combien coûte une traduction assermentée ?",
-        a: "Nos tarifs commencent à 30 € par page (250 mots) pour une traduction standard. Le service express 48h est facturé 45 € par page, et le service urgent sous 24h est à 60 € par page. Le tarif final dépend du volume, de la langue et de la complexité du document. Demandez un devis gratuit pour un prix précis.",
+        a: "Nos tarifs commencent à 45 € par page (250 mots) pour une traduction standard. Le service express 48h est facturé 68 € par page, et le service urgent sous 24h est à 90 € par page. Le tarif final dépend du volume, de la langue et de la complexité du document. Demandez un devis gratuit pour un prix précis.",
       },
       {
         q: "Est-ce que le devis est vraiment gratuit et sans engagement ?",

@@ -66,7 +66,7 @@ export default function Article() {
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Prix et délais</h2>
           <p className="text-navy-600 leading-relaxed">
-            Le coût de la traduction assermentée d&apos;un diplôme varie entre <strong>35 et 55€</strong> selon la langue et la complexité du document. Les relevés de notes sont facturés en fonction du nombre de pages. Comptez 2 à 3 jours ouvrables en délai standard.
+            Le coût de la traduction assermentée d&apos;un diplôme varie entre <strong>53 et 83€</strong> selon la langue et la complexité du document. Les relevés de notes sont facturés en fonction du nombre de pages. Comptez 2 à 3 jours ouvrables en délai standard.
           </p>
 
           <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">

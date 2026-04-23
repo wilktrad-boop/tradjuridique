@@ -63,7 +63,7 @@ export default function Article() {
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Tarifs et délais</h2>
           <p className="text-navy-600 leading-relaxed">
-            L&apos;anglais étant une langue courante, les tarifs de traduction assermentée anglais-français sont parmi les plus compétitifs. Comptez entre <strong>25 et 50€ par page</strong> selon le type de document, avec un délai de 1 à 3 jours ouvrables en standard.
+            L&apos;anglais étant une langue courante, les tarifs de traduction assermentée anglais-français sont parmi les plus compétitifs. Comptez entre <strong>38 et 75€ par page</strong> selon le type de document, avec un délai de 1 à 3 jours ouvrables en standard.
           </p>
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Anglais britannique vs anglais américain</h2>

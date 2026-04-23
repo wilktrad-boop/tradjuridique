@@ -321,7 +321,7 @@ export default function TraductionEntreprisePage() {
                 Des tarifs adaptés à vos volumes
               </h2>
               <p className="text-navy-600 leading-relaxed mb-6">
-                À partir de <strong className="text-navy-900">30 € par page</strong> pour les
+                À partir de <strong className="text-navy-900">45 € par page</strong> pour les
                 traductions standard. Tarifs dégressifs dès 20 pages. Contrats-cadres annuels
                 disponibles pour les entreprises avec besoins récurrents.
               </p>

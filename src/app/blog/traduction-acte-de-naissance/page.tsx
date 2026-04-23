@@ -67,7 +67,7 @@ export default function Article() {
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Prix et délais</h2>
           <p className="text-navy-600 leading-relaxed">
-            Le prix d&apos;une traduction assermentée d&apos;acte de naissance se situe entre <strong>30 et 50€</strong> selon la langue. Le délai standard est de 2 à 3 jours ouvrables. Un service express sous 24h est disponible moyennant un supplément.
+            Le prix d&apos;une traduction assermentée d&apos;acte de naissance se situe entre <strong>45 et 75€</strong> selon la langue. Le délai standard est de 2 à 3 jours ouvrables. Un service express sous 24h est disponible moyennant un supplément.
           </p>
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Faut-il une apostille ?</h2>

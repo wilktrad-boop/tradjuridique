@@ -46,14 +46,14 @@ export default function Article() {
               </thead>
               <tbody>
                 {[
-                  ["Acte de naissance", "30 - 50€", "2-3 jours"],
-                  ["Acte de mariage", "30 - 50€", "2-3 jours"],
-                  ["Permis de conduire", "25 - 45€", "1-2 jours"],
-                  ["Diplôme", "35 - 55€", "2-3 jours"],
-                  ["Casier judiciaire", "30 - 50€", "2-3 jours"],
-                  ["Contrat (par page)", "35 - 65€", "3-5 jours"],
-                  ["Acte notarié (par page)", "40 - 70€", "3-5 jours"],
-                  ["Statuts de société (par page)", "35 - 60€", "3-5 jours"],
+                  ["Acte de naissance", "45 - 75€", "2-3 jours"],
+                  ["Acte de mariage", "45 - 75€", "2-3 jours"],
+                  ["Permis de conduire", "38 - 68€", "1-2 jours"],
+                  ["Diplôme", "53 - 83€", "2-3 jours"],
+                  ["Casier judiciaire", "45 - 75€", "2-3 jours"],
+                  ["Contrat (par page)", "53 - 98€", "3-5 jours"],
+                  ["Acte notarié (par page)", "60 - 105€", "3-5 jours"],
+                  ["Statuts de société (par page)", "53 - 90€", "3-5 jours"],
                 ].map(([doc, prix, delai]) => (
                   <tr key={doc} className="hover:bg-navy-50/50">
                     <td className="p-4 border border-navy-200 font-medium">{doc}</td>

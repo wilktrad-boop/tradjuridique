@@ -149,7 +149,7 @@ export default function Article() {
           <p className="text-navy-600 leading-relaxed">
             Le tarif d&apos;une traduction assermentée de relevé de notes dépend du nombre de pages et de la langue cible.
             Pour un relevé standard (2 à 4 pages) vers l&apos;anglais, l&apos;espagnol, l&apos;italien ou l&apos;allemand, comptez entre{" "}
-            <strong>50 et 120 €</strong>. Pour des langues moins courantes (arabe, chinois, japonais, russe), le
+            <strong>75 et 180 €</strong>. Pour des langues moins courantes (arabe, chinois, japonais, russe), le
             tarif est légèrement plus élevé.
           </p>
           <p className="text-navy-600 leading-relaxed">

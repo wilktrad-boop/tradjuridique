@@ -77,7 +77,7 @@ export default function Article() {
 
           <h2 className="text-2xl font-heading font-bold text-navy-900">Prix et délais</h2>
           <p className="text-navy-600 leading-relaxed">
-            Le prix d&apos;une traduction assermentée de permis de conduire se situe généralement entre <strong>25 et 45€</strong>, selon la langue source. Le délai standard est de 1 à 2 jours ouvrables, avec possibilité de service express sous 24h.
+            Le prix d&apos;une traduction assermentée de permis de conduire se situe généralement entre <strong>38 et 68€</strong>, selon la langue source. Le délai standard est de 1 à 2 jours ouvrables, avec possibilité de service express sous 24h.
           </p>
 
           <div className="not-prose bg-navy-50 border border-navy-100 rounded-xl p-6 my-8">
